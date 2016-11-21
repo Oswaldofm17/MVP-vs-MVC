@@ -30,5 +30,6 @@ public class DomainView : IDomainView
 
 El Modelo Vista Controlador (MVC) y el Modelo Vista Presentador son Paradigmas de Diseño de software. La idea principal de estos paradigmas es separar la interfaz gráfica, la lógica, y la "cola" que los une en distintos modulos en el programa.
 
+![alt text](https://github.com/Oswaldofm17/MVP-vs-MVC/blob/master/mvc.JPG "Logo Title Text 1")
 
 La diferencia esencial entre MVC y MVP es que los objetos que son parte de la interfaz gráfica del software, delegan sus acciones al controlador para responder a las interacciones del usuario, mientras que en el MVP, los objetos de la interfaz gráfica se encargan de responder al usuario, en vez de delegar las acciones al Controlador como lo haría MVC.
